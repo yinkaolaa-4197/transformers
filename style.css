@@ -1,0 +1,55 @@
+body {
+  background-color:olivedrab;
+  font-family: "Helvetica", sans-serif;
+  color: red;
+}
+
+h1 {
+  color: orange;
+  font-family: "Times New Roman", serif;
+}
+
+footer p{
+  text-align: center;
+}
+
+.nav{
+  list-style-type: none;
+  float: right;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav li a{
+  text-decoration: none;
+  padding: 4px;
+  color: white;
+  background: red;
+  font-family: monospace;
+  font-size: 1.2em;
+  padding: 2px;
+  border: 2px solid orange;
+}
+
+table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr {
+  background-color: orange;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: white;
+}
+td {
+  color: red;
+}
+
